@@ -8,6 +8,7 @@ html{
 header{
     background-image: url(img/jumbo.png);
     background-size: cover;
+    background-repeat: no-repeat;
 } 
 
 .nav-container{
@@ -40,7 +41,7 @@ a{
     text-align: center;
     color: white;
 }
-h1{
+.motto{
     margin-top: 7rem;
     margin-bottom:3rem ;
     font-weight: 800;
@@ -51,7 +52,7 @@ h1{
 }
 .motto-button1{
     background-color: white;
-    color:black ;
+    color:#23272A ;
     margin-right: 1rem;
 }
 .motto-button2{
@@ -63,4 +64,17 @@ h1{
     padding: 7px 16px;
     text-decoration: none;
     border-radius: 24px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+     display: flex;
+    flex-direction: row;
+}
+.gray{
+    background-color: #F6F6F6;
+}
+.testo-img{
+    width: 700px;
+
 }
