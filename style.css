@@ -1,9 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-}   
+} 
+html{
+    font-family: 'Roboto', sans-serif;
+}  
 header{
     background-image: url(img/jumbo.png);
+    background-size: cover;
 } 
 
 .nav-container{
@@ -29,4 +33,34 @@ a{
     color: black;
     border-radius: 24px;
     font-size: 14px;
+}
+.motto-container{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+h1{
+    margin-top: 7rem;
+    margin-bottom:3rem ;
+    font-weight: 800;
+    font-size: 56px;
+}
+.motto-container>p{
+    margin-bottom: 1rem;
+}
+.motto-button1{
+    background-color: white;
+    color:black ;
+    margin-right: 1rem;
+}
+.motto-button2{
+    background-color:black ;
+    color:white ;
+}
+.motto-button1,.motto-button2{
+    margin-bottom: 50px;
+    padding: 7px 16px;
+    text-decoration: none;
+    border-radius: 24px;
 }
