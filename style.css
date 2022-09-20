@@ -23,7 +23,7 @@ header{
 }
 a{
     display: inline-block;
-    padding: 7px 16px;
+    padding: 7px 16px ;
     text-decoration: none;
     color: white;
 }
@@ -122,12 +122,20 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    border-bottom: 1px solid #7188D9;
+    padding-bottom: 3rem;
 }
 .footer-title{
     color: #7188D9;
 }
 .titolo-lista{
     color: #7188D9;
+}
+.lingua-container{
+    padding: 2rem 0 0 0;
+}
+.social{
+    padding: 1rem 0 0 0;
 }
 ul{
     list-style-type: none;
@@ -139,4 +147,16 @@ ul{
     display: inline-block;
     transform: rotate(90deg);
 }
-ti
+.endpage-container{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+.registrazione{
+    padding: 10px 27px;
+    border-radius: 24px;
+    color: white;
+    background-color: #7289DA;
+}
