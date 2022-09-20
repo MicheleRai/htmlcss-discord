@@ -4,7 +4,6 @@
 } 
 html{
     font-family: 'Roboto', sans-serif;
-    list-style: none;
 }  
 header{
     background-image: url(img/jumbo.png);
@@ -26,6 +25,7 @@ a{
     display: inline-block;
     padding: 7px 16px;
     text-decoration: none;
+    color: white;
 }
 .nav-item2>a{
     color: white;
@@ -117,16 +117,20 @@ a{
 }
 .footer-container{
     color: white;
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 .footer-title{
     color: #7188D9;
 }
-li:nth-child(1){
+.titolo-lista{
     color: #7188D9;
+}
+ul{
+    list-style-type: none;
 }
 .ita{
     width: 24px;
@@ -135,3 +139,4 @@ li:nth-child(1){
     display: inline-block;
     transform: rotate(90deg);
 }
+ti
