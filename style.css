@@ -86,6 +86,9 @@ a{
 .gray{
     background-color: #F6F6F6;
 }
+.black{
+    background-color: #23272A;
+}
 .testo-img{
     max-width: 500px;
     margin-top: 2rem;
