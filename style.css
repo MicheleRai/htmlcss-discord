@@ -12,7 +12,7 @@ header{
 } 
 
 .nav-container{
-    width: 1000px;
+    max-width: 1000px;
     height: 80px;
     padding: 0 24px;
     margin: auto;
@@ -36,7 +36,7 @@ a{
     font-size: 14px;
 }
 .motto-container{
-    width: 800px;
+    max-width: 800px;
     margin: auto;
     text-align: center;
     color: white;
@@ -65,8 +65,11 @@ a{
     text-decoration: none;
     border-radius: 24px;
 }
+.bg{
+    margin-top: 7rem;
+}
 .container{
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
      display: flex;
     flex-direction: row;
@@ -75,6 +78,12 @@ a{
     background-color: #F6F6F6;
 }
 .testo-img{
-    width: 700px;
-
+    max-width: 500px;
+    margin-top: 2rem;
+}
+.main-img>img{
+    max-width: 700px;
+}
+.titolo-main{
+    font-size: 45px;
 }
